@@ -16,7 +16,7 @@ The API will be available at: `http://localhost:5119/api/applications`
 
 ### Frontend (React)
 
-1. Navigate to the `job-application-ui` folder.  
+1. Navigate to the `job-application-tracker` folder.  
 2. Install dependencies:  
    npm install  
 3. Start the frontend:  
