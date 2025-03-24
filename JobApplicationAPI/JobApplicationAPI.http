@@ -1,0 +1,21 @@
+@JobApplicationAPI_HostAddress = http://localhost:5119
+
+### Get all job applications
+GET {{JobApplicationAPI_HostAddress}}/api/applications
+Accept: application/json
+
+### Get a specific job application (replace {id} with actual ID)
+GET {{JobApplicationAPI_HostAddress}}/api/applications/1
+Accept: application/json
+
+### Create a new job application
+POST {{JobApplicationAPI_HostAddress}}/api/applications
+Content-Type: application/json
+
+{
+  "companyName": "Datacom",
+  "position": "Software Developer",
+  "status": "Applied",
+  "dateApplied": "2025-01-01"
+}
+
